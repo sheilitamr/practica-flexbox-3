@@ -23,5 +23,120 @@ a {
 
 body {
   margin: 0;
-  background-image: url(../assets/images/sleep-cat.jpeg);
+  font-family: 'Hanken Grotesk', sans-serif;
+  background-color: #cac9ff;
+}
+.main-container {
+  display: flex;
+  width: 736px;
+  background-color: white;
+  border-radius: 32px;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 38px 54px 48px;
+  width: 368px;
+  height: 512px;
+  background-image: linear-gradient(#7755ff, #2f2ce9);
+  border-radius: 32px;
+}
+.result__title {
+  margin: 0;
+  margin-bottom: 35px;
+  color: #cac9ff;
+  font-weight: 700;
+  font-size: 24px;
+}
+.result__circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(#4d21c9, #2521c9, transparent);
+}
+.result__points {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 72px;
+  color: white;
+}
+.result__total {
+  color: #cac9ff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.result__qualification {
+  font-weight: 700;
+  color: white;
+  font-size: 32px;
+}
+.result__text {
+  color: #cac9ff;
+  font-size: 18px;
+  text-align: center;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  height: 512px;
+  padding: 38px 40px 46px;
+}
+.summary__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 85, 85, 0.05);
+  border-radius: 12px;
+  padding: 17px;
+  margin-bottom: 16px;
+}
+.summary__item--yellow {
+  background-color: rgba(255, 176, 30, 0.05);
+}
+.summary__item--green {
+  background-color: rgba(0, 187, 143, 0.05);
+}
+.summary__item--blue {
+  background-color: rgba(17, 37, 214, 0.05);
+}
+.summary__category {
+  display: flex;
+}
+.summary__image {
+  margin-right: 12px;
+}
+.summary__text {
+  color: #ff5555;
+}
+.summary__text--yellow {
+  color: #ffb21e;
+}
+.summary__text--green {
+  color: #00bb8f;
+}
+.summary__text--blue {
+  color: #1125d6;
+}
+.summary__points {
+  margin: 0;
+  color: #303b59;
+}
+.bold {
+  font-weight: 700;
+}
+.button {
+  background-color: #303b59;
+  width: 100%;
+  border-radius: 128px;
+  line-height: 2.5;
+  color: white;
+  text-align: center;
+  margin-top: auto;
 }
